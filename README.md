@@ -5,6 +5,10 @@ The code for paper: **VEPO: Unlocking Effective Reinforcement Learning for Visua
 VEPO improves reinforcement learning for vision-language models by selectively training on visually-grounded tokens. It uses Jensen-Shannon Divergence (JSD) between normal and counterfactual (noisy/no-image) forward passes to identify tokens that depend on visual information, then focuses policy gradient updates on these important tokens.
 
 
+<div align="center">
+  <img src="main.png" width="100%">
+</div>
+
 
 ## Installation
 
