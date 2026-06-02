@@ -1,6 +1,6 @@
 # VEPO: Unlocking Effective Reinforcement Learning for Visual Reasoning via Vision-Anchored Token Selection
 
-The code for paper: **VEPO: Unlocking Effective Reinforcement Learning for Visual Reasoning via Vision-Anchored Token Selection**.
+The code for paper: **Entropy is Not Enough: Unlocking Effective Reinforcement Learning for Visual Reasoning via Vision-Anchored Token Selection**.
 
 VEPO improves reinforcement learning for vision-language models by selectively training on visually-grounded tokens. It uses Jensen-Shannon Divergence (JSD) between normal and counterfactual (noisy/no-image) forward passes to identify tokens that depend on visual information, then focuses policy gradient updates on these important tokens.
 
